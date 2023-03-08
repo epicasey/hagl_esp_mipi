@@ -56,7 +56,7 @@ valid.
 
 
 static spi_device_handle_t spi;
-static const char *TAG = "hagl_esp_mipi";
+//static const char *TAG = "hagl_esp_mipi";
 
 static void
 put_pixel(void *self, int16_t x0, int16_t y0, hagl_color_t color)
